@@ -2,7 +2,7 @@ Hi,
 
 Built a two-sided service marketplace with provider discovery, booking flow, availability calendar, and earnings dashboard — adapted it for your spec:
 
-**Built this for your project:** {VERCEL_URL}
+**Built this for your project:** https://service-marketplace-rust.vercel.app
 
 Covers the AI concierge chatbot, premium subscription gate, real-time availability, and the privacy/discreet mode with Quick Exit — the detail most developers won't anticipate. Lynt Marketplace and Sienna Charles (AI-powered vendor booking, map discovery) are the closest live examples.
 
@@ -20,7 +20,7 @@ Humam
 
 ### 1. A link to a marketplace/booking platform you've built (or similar complexity)
 
-Built a working demo for your exact use case: {VERCEL_URL}
+Built a working demo for your exact use case: https://service-marketplace-rust.vercel.app
 
 For live marketplace examples: Lynt Marketplace (vendor onboarding, listings, transactions) and Sienna Charles vendor platform (AI search, booking management, map discovery).
 
