@@ -3,11 +3,25 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  LayoutDashboard,
+  Users,
+  CalendarCheck,
+  MessageCircle,
+  BarChart3,
+  ChevronLeft,
+  ChevronRight,
+  Search,
+} from "lucide-react";
 import { useState } from "react";
 
 const navItems = [
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/providers", label: "Providers", icon: Users },
+  { href: "/bookings", label: "Bookings", icon: CalendarCheck },
+  { href: "/messages", label: "Messages", icon: MessageCircle },
+  { href: "/search", label: "AI Search", icon: Search },
+  { href: "/analytics", label: "Analytics", icon: BarChart3 },
 ];
 
 interface SidebarContentProps {
@@ -22,12 +36,12 @@ export function SidebarContent({ collapsed }: SidebarContentProps) {
       {/* Logo */}
       <div className="p-4 border-b border-border/60 flex items-center gap-3">
         <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-          <span className="text-primary font-bold text-sm">A</span>
+          <span className="text-primary font-bold text-sm">SC</span>
         </div>
         {!collapsed && (
           <div className="overflow-hidden">
-            <h1 className="font-semibold text-sm leading-tight">App Name</h1>
-            <p className="text-[10px] text-muted-foreground">Demo App</p>
+            <h1 className="font-semibold text-sm leading-tight">ServiceConnect</h1>
+            <p className="text-[10px] text-muted-foreground">Premium Marketplace</p>
           </div>
         )}
       </div>
